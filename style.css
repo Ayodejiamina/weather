@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.back1{
+    background:linear-gradient(rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.623)),url(images/twilight.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cent{
+    background:linear-gradient(rgba(7, 23, 29, 0.151),rgba(3, 21, 29, 0.137)),url(images/met.webp);
+    border-radius: 10px;
+    object-fit: scale-down;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 30%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.mage img{
+    width: 150px;
+    height: 150px;
+    object-fit: scale-down;
+
+}
+.cent h2{
+
+    font-size: 50px;
+}
+.ps{
+    font-size: 30px;
+}
+.inps input{
+    width: 70%;
+    border: 1px solid white;
+    outline: none;
+    padding: 7px;
+    margin: auto;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+}
+.inps button{
+    background-color:white;
+    color: black;
+    padding: 7px;
+    border: none;
+    position: relative;
+    right: 32px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#name{
+    font-size: 30px;
+}
