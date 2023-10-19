@@ -1,9 +1,9 @@
-fetch(`https://api.openweathermap.org/data/2.5/weather?q= lagos&appid=ba341f72f7d3b1d0cf1ba4f6d847de34`)
-    .then(res=> res.json())
-    .then((data)=>{
-        console.log(data)
+// fetch(`https://api.openweathermap.org/data/2.5/weather?q= lagos&appid=ba341f72f7d3b1d0cf1ba4f6d847de34`)
+//     .then(res=> res.json())
+//     .then((data)=>{
+//         console.log(data)
         
-    })
+//     })
 // https://source.unsplash.com/1600x900/? + name
     // <https://api.unsplash.com/search/collections?page=1&query=office
 //PMrpNfI9pGnbDn__VyRMVR5e2YsLDaQ6cgrThithZgs
