@@ -15,6 +15,8 @@
 function submitMe(){
     let weather = document.getElementById('weather')
     let cent = document.getElementById('cent')
+    let bac1 = document.getElementById('bac1')
+
     let input = document.getElementById('inps').value
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=ba341f72f7d3b1d0cf1ba4f6d847de34`)
     .then(res=> res.json())
@@ -36,7 +38,7 @@ function submitMe(){
            </div>
              `
              weather.innerHTML = empty
-             cent.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + input + "')"
+             bac1.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + input + "')"
           }
           else if(data.weather[0].main == "Clear"){
             let temperate =Math.floor( data.main.temp - 273)
@@ -52,7 +54,7 @@ function submitMe(){
                 </div>
              `
              weather.innerHTML = empty
-             cent.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + input + "')"
+             bac1.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + input + "')"
 
           }
         else{
@@ -69,7 +71,7 @@ function submitMe(){
                 </div>
                  `
                  weather.innerHTML = empty
-                 cent.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + input + "')"
+                 bac1.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + input + "')"
         }
     })
 

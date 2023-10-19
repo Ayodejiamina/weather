@@ -14,7 +14,7 @@
     align-items: center;
 }
 .cent{
-    background:linear-gradient(rgba(7, 23, 29, 0.151),rgba(3, 21, 29, 0.137)),url(images/met.webp);
+    background:linear-gradient(rgba(7, 23, 29, 0.53),rgba(3, 21, 29, 0.604));
     border-radius: 10px;
     object-fit: scale-down;
     height: 500px;
@@ -60,4 +60,13 @@
 }
 #name{
     font-size: 30px;
+}
+@media (max-width:768px){
+    .cent{
+        width: 90%;
+        height: 500px;
+    }
+    strong{
+        font-size: 20px;
+    }
 }
